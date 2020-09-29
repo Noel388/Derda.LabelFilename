@@ -2,7 +2,7 @@
 
 There are two main function in this R package: 1. `make.table()` and 2. `predict.label()`. Other function are used internally for the main functions.
 
-### make.table()
+### 1. make.table()
                             make.table(directory, columns, ExcludedSDBs)
 
 This function convert the input (raw) data into specific format for prediction. Note that this function stand alone can be used for data analysis as it organize the data according to their nucleic acid and then convert them into SDB. 
@@ -14,7 +14,8 @@ This function convert the input (raw) data into specific format for prediction. 
 `columns` the columns of the input data that wish to include
 
 `ExcludedSDBs` the sdbs that wish to remove from the input data
-<br>
+
+###
 
 **Example**
 
@@ -37,14 +38,26 @@ This function convert the input (raw) data into specific format for prediction. 
 ```
 
 
-### predict.label()
+### 2. predict.label()
                             predict.label(table)
 
 This function predict the label (i.e., Dictionary, Target, and Post-processing) of the input table. The output will be a pdf file containing the prediction and the % confidence respectively. Note that the input table **MUST** be in the specific format (i.e., output of `make.table()`)
 
+#### Arguments
 `table` input data(output of `make.table()`
+
+###
 
 **Example**
 
-`prediction = predict.label(example_df)`
+```
+> predict.label(example_df)
+[1] "Predicting..."
+Done Prediction...
+Creating pdf....  (named 'results.pdf' in default)
+Warning messages may pop up, but can be safely ignored.
+null device 
+          1 
+# output file is provided as "example_output.pdf"
+```
 
