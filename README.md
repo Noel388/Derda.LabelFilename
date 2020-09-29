@@ -3,6 +3,9 @@
 This package predicts the label of the given experiment data.
 
                    Install from GitHub :  devtools::install_github("Noel388/Derda.LabelFilename")
+                   
+## Installation
+### Possible for installation error
                  
 You may need to first install the package `devtools`:
                    
@@ -20,4 +23,3 @@ Note that if the following prompt appears, it is recommended to select `3: None`
                    2: CRAN packages only                  
                    3: None                                
                    4: data.table (1.12.8 -> 1.13.0) [CRAN]
-                   
