@@ -5,7 +5,7 @@ This package predicts the label of the given experiment data.
                    Install from GitHub :  devtools::install_github("Noel388/Derda.LabelFilename")
                    
 ## Installation
-### Possible for installation error
+### Possible solution for installation error
                  
 You may need to first install the package `devtools`:
                    
