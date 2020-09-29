@@ -15,7 +15,7 @@ This function convert the input (raw) data into specific format for prediction. 
 
 `ExcludedSDBs` the sdbs that wish to remove from the input data
 
-###
+<br>
 
 **Example**
 
@@ -44,9 +44,9 @@ This function convert the input (raw) data into specific format for prediction. 
 This function predict the label (i.e., Dictionary, Target, and Post-processing) of the input table. The output will be a pdf file containing the prediction and the % confidence respectively. Note that the input table **MUST** be in the specific format (i.e., output of `make.table()`)
 
 #### Arguments
-`table` input data(output of `make.table()`
+`table` input data(output of `make.table()`)
 
-###
+<br>
 
 **Example**
 
