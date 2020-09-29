@@ -10,7 +10,8 @@ You may need to first install the package `devtools`:
                    library("devtools")
 
 
-Note that if the following prompt appears, it is recommended to select `3: None`. Some users may experience error in `data.table` if selected other options.
+Note that if the following prompt appears, it is recommended to select `3: None`.
+
                    These packages have more recent versions available.
                    It is recommended to update all of them.
                    Which would you like to update?
