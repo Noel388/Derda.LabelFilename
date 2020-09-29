@@ -23,3 +23,6 @@ Note that if the following prompt appears, it is recommended to select `3: None`
                    2: CRAN packages only                  
                    3: None                                
                    4: data.table (1.12.8 -> 1.13.0) [CRAN]
+
+## Function
+please refer to the Function Documentation.md
